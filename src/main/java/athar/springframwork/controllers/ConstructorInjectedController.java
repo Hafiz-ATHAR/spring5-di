@@ -8,11 +8,9 @@ import athar.springframwork.services.Movie;
 @Controller
 public class ConstructorInjectedController {
 
-	private Movie movie;
+private Movie movie;
 	
-	public ConstructorInjectedController(
-		@Qualifier("constructorMovieService")	Movie movie) {
-		
+	public ConstructorInjectedController(@Qualifier("constructorMovieService")	Movie movie) {
 		this.movie = movie;
 	}
 	

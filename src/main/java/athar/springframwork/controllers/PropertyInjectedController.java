@@ -9,8 +9,7 @@ public class PropertyInjectedController {
 
 	private MovieServiceImpl movie;
 	
-public String getMovie() {
-		
+	public String getMovie() {	
 		return movie.fetchMovie();
 	}
 	
