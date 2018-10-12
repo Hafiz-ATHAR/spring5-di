@@ -9,5 +9,17 @@ import athar.springframwork.services.Movie;
 @Controller
 public class SetterInjectedController {
 
-	
+	private Movie movie;
+
+	@Autowired
+	public void setGreeting(
+		@Qualifier("setterMovieService")	Movie movie) {
+		this.movie = movie;
+	}
+
+
+	public String getMovie() {
+
+		return movie.fetchMovie();
+	}
 }
