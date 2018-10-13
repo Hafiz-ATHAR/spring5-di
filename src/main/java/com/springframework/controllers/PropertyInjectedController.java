@@ -1,11 +1,11 @@
-package athar.springframwork.controllers;
+package com.springframework.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
-import athar.springframwork.services.Movie;
-import athar.springframwork.services.MovieServiceImpl;
+import com.springframework.services.Movie;
+import com.springframework.services.MovieServiceImpl;
 
 @Controller
 public class PropertyInjectedController {

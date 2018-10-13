@@ -1,8 +1,8 @@
-package athar.springframwork.controllers;
+package com.springframework.controllers;
 
 import org.springframework.stereotype.Controller;
 
-import athar.springframwork.services.Movie;
+import com.springframework.services.Movie;
 
 @Controller
 public class PrimaryController {

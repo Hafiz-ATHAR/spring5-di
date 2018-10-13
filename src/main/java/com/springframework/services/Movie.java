@@ -1,4 +1,4 @@
-package athar.springframwork.services;
+package com.springframework.services;
 
 import org.springframework.stereotype.Service;
 

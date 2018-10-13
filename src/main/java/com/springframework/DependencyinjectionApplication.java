@@ -1,12 +1,12 @@
-package athar.springframwork;
+package com.springframework;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import athar.springframwork.controllers.ConstructorInjectedController;
-import athar.springframwork.controllers.PrimaryController;
-import athar.springframwork.controllers.PropertyInjectedController;
+import com.springframework.controllers.ConstructorInjectedController;
+import com.springframework.controllers.PrimaryController;
+import com.springframework.controllers.PropertyInjectedController;
 
 @SpringBootApplication
 public class DependencyinjectionApplication {
