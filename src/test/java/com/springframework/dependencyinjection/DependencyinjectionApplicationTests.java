@@ -1,4 +1,4 @@
-package athar.springframwork.dependencyinjection;
+package com.springframework.dependencyinjection;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
